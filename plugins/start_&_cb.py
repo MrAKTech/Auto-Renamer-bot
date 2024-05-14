@@ -58,11 +58,11 @@ async def cb_handler(client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([[
                 InlineKeyboardButton("⚙️ Setup AutoRename Format ⚙️", callback_data='file_names')
                 ],[
-                InlineKeyboardButton('🖼️ Thumbnail', callback_data='thumbnail'),
-                InlineKeyboardButton('✏️ Caption', callback_data='caption')
+                InlineKeyboardButton('🖼️ Tʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail'),
+                InlineKeyboardButton('✏️ Cᴀᴘᴛɪᴏɴ', callback_data='caption')
                 ],[
-                InlineKeyboardButton('🏠 Home', callback_data='home'),
-                InlineKeyboardButton('💰 Donate', callback_data='donate')
+                InlineKeyboardButton('《 Hᴏᴍᴇ', callback_data='home'),
+                InlineKeyboardButton('💰 Dᴏɴᴀᴛᴇ', callback_data='donate')
                 ]])
         )
     elif data == "donate":
