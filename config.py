@@ -44,11 +44,11 @@ class Txt(object):
 <b>✓ episode :- ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴇᴘɪsᴏᴅᴇ ɴᴜᴍʙᴇʀ</b>
 <b>✓ quality :- ᴛᴏ ʀᴇᴘʟᴀᴄᴇ ᴠɪᴅᴇᴏ ʀᴇsᴏʟᴜᴛɪᴏɴ</b>
 
-<b>➻ Exᴀᴍᴘʟᴇ :</b> <code> /autorename [S1-Eepisode] [quality] Naruto Shippuden [@Anime_Infinitrly] </code>
+<b>➻ Exᴀᴍᴘʟᴇ :</b> <code> /autorename [S1-Eepisode] [quality] Naruto Shippuden [@Anime_Infinitely] </code>
 
 <b>➻ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ :</b> <code>{format_template}</code> """
     
-    ABOUT_TXT = f"""<b>๏ ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Auto_Renamer_XBot'>ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ ⚡</a>
+    ABOUT_TXT = f"""<b>๏ ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Auto_Renamer_XBot'>ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ</a>
 <b>๏ ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>ᴘʏᴛʜᴏɴ 3</b></a>
 <b>๏ ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>ᴘʏʀᴏɢʀᴀᴍ 2.0</b></a>
 <b>๏ sᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a>
@@ -86,7 +86,7 @@ class Txt(object):
     
     HELP_TXT = """<b>Hey</b> {}
     
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs."""
+<b>ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
 
 
 
