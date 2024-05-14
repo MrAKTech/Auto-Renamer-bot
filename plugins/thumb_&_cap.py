@@ -4,7 +4,7 @@ from helper.database import madflixbotz
 @Client.on_message(filters.private & filters.command('set_caption'))
 async def add_caption(client, message):
     if len(message.command) == 1:
-       return await message.reply_text("**Give The Caption\n\nExample :- `/set_caption 📕Name ➠ : {filename} \n\n🔗 Size ➠ : {filesize} \n\n⏰ Duration ➠ : {duration}`**")
+       return await message.reply_text("**Give The Caption\n\nExample :- `/set_caption 📕 ɴᴀᴍᴇ ➠ : {filename} \n\n🔗 sɪᴢᴇ ➠ : {filesize} \n\n⏰ ᴅᴜʀᴀᴛɪᴏɴ ➠ : {duration}`**")
     caption = message.text.split(" ", 1)[1]
     await madflixbotz.set_caption(message.from_user.id, caption=caption)
     await message.reply_text("**ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ sᴜᴄᴄᴇssғᴜʟʟʏ ᴀᴅᴅᴇᴅ ✓**")
@@ -13,7 +13,7 @@ async def add_caption(client, message):
 async def delete_caption(client, message):
     caption = await madflixbotz.get_caption(message.from_user.id)  
     if not caption:
-       return await message.reply_text("**You Don't Have Any Caption ✘**")
+       return await message.reply_text("**ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀɴʏ ᴄᴀᴘᴛɪᴏɴ ✘**")
     await madflixbotz.set_caption(message.from_user.id, caption=None)
     await message.reply_text("**ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ sᴜᴄᴄᴇssғᴜʟʟʏ ᴅᴇʟᴇᴛᴇᴅ 🗑️**")
                                        
