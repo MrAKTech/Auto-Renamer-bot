@@ -36,8 +36,8 @@ async def tutorial(bot,message):
 	    text =Txt.FILE_NAME_TXT.format(format_template=format_template),
 	    disable_web_page_preview=True,
 	    reply_markup=InlineKeyboardMarkup([
-        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/CallAdminRobot"), 
-        			InlineKeyboardButton("⚡ Tutorial",url = "https://t.me/MadflixBots_Support") ]])
+        			[InlineKeyboardButton("🍁 Admin",url = "https://t.me/Devil_Eyes_ZX"), 
+        			InlineKeyboardButton("⚡ Tutorial",url = "https://t.me/+FGM0HOnjDC45ZDk1") ]])
 	)
 
 
