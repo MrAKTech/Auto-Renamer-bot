@@ -25,17 +25,17 @@ class Config(object):
 class Txt(object):
     # part of text configuration
         
-    START_TXT = """Hello {} 
+    START_TXT = """<b>😊 ʜᴇʟʟᴏ {} 
     
-➻ This Is An Advanced And Yet Powerful Rename Bot.
+<b>➻ ᴛʜɪs ɪs ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ ᴘᴏᴡᴇʀғᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.
     
-➻ Using This Bot You Can Auto Rename Of Your Files.
+<b>➻ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ᴏғ ʏᴏᴜʀ ғɪʟᴇs.
     
-➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
+<b>➻ ᴛʜɪs ʙᴏᴛ ᴀʟsᴏ sᴜᴘᴘᴏʀᴛs ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ.
     
-➻ Use /tutorial Command To Know How To Use Me.
+<b>➻ ᴜsᴇ /tutorial ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ.
     
-<b>Bot Is Made By @Madflix_Bots</b>"""
+<b>ʙᴏᴛ ɪs ᴍᴀᴅᴇ ʙʏ @ZPro_Bots</b>"""
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
 
@@ -44,28 +44,28 @@ Use These Keywords To Setup Custom File Name
 ✓ episode :- To Replace Episode Number
 ✓ quality :- To Replace Video Resolution
 
-<b>➻ Example :</b> <code> /autorename [S1-Eepisode] [quality] Naruto Shippuden [@Anime_Infinitrly] </code>
+<b>➻ Exᴀᴍᴘʟᴇ :</b> <code> /autorename [S1-Eepisode] [quality] Naruto Shippuden [@Anime_Infinitrly] </code>
 
-<b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
+<b>➻ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ ᴀᴜᴛᴏ ʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ :</b> <code>{format_template}</code> """
     
-    ABOUT_TXT = f"""<b>😊 ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Auto_Renamer_XBot'>Auto Renamer Bot ⚡</a>
+    ABOUT_TXT = f"""<b>๏ ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Auto_Renamer_XBot'>Auto Renamer Bot ⚡</a>
 <b>๏ ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'>Python 3</a>
 <b>๏ ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>๏ sᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'>Heroku</a>
-<b>๏ ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>๏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+<b>๏ ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/ZPro_Bots'>ZPro Bots</a>
+<b>๏ ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/Devil_Eyes_ZX'>Devil Eyes</a>
     
-<b>♻️ Bot Made By :</b> @ZPro_Bots"""
+<b>♻️ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ :</b> @ZPro_Bots"""
 
     
-    THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
+    THUMBNAIL_TXT = """<b><u>🖼️  ʜᴏᴡ ᴛᴏ sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ</u></b>
     
 ⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....
     
 ⦿ /viewthumb - Use This Command To See Your Thumbnail
 ⦿ /delthumb - Use This Command To Delete Your Thumbnail"""
 
-    CAPTION_TXT = """<b><u>📝  HOW TO SET CAPTION</u></b>
+    CAPTION_TXT = """<b><u>📝  ʜᴏᴡ ᴛᴏ sᴇᴛ ᴄᴀᴘᴛɪᴏɴ</u></b>
     
 ⦿ /set_caption - Use This Command To Set Your Caption
 ⦿ /see_caption - Use This Command To See Your Caption
@@ -78,11 +78,11 @@ Use These Keywords To Setup Custom File Name
 <b>๏ ᴇᴛᴀ</b> : {4} """
     
     
-    DONATE_TXT = """<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
+    DONATE_TXT = """<b>🥲 ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ! ❤️</b>
     
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 20 Rs Upto Your Choice.
+ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍʏ ʙᴏᴛs & ᴘʀᴏᴊᴇᴄᴛs, ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ғʀᴏᴍ 20 ʀs ᴜᴘᴛᴏ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ.
     
-<b>🛍 UPI ID:</b> <code>anime-legend@axl</code> """
+<b>🛍 ᴜᴘɪ ɪᴅ:</b> <code>anime-legend@axl</code> """
     
     HELP_TXT = """<b>Hey</b> {}
     
