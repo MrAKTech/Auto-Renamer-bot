@@ -192,7 +192,7 @@ async def auto_rename_files(client, message):
             if quality_placeholder in format_template:
                 extracted_qualities = extract_quality(file_name)
                 if extracted_qualities == "Unknown":
-                    await message.reply_text("I Was Not Able To Extract The Quality Properly. Renaming As 'Unknown'...")
+                    await message.reply_text("<b>I ᴡᴀs ɴᴏᴛ ᴀʙʟᴇ ᴛᴏ ᴇxᴛʀᴀᴄᴛ ᴛʜᴇ ǫᴜᴀʟɪᴛʏ ᴘʀᴏᴘᴇʀʟʏ. ʀᴇɴᴀᴍɪɴɢ ᴀs 'ᴜɴᴋɴᴏᴡɴ'...</b>")
                     # Mark the file as ignored
                     del renaming_operations[file_id]
                     return  # Exit the handler if quality extraction fails
@@ -204,7 +204,7 @@ async def auto_rename_files(client, message):
         file_path = f"downloads/{new_file_name}"
         file = message
 
-        download_msg = await message.reply_text(text="Trying To Download.....")
+        download_msg = await message.reply_text(text="<b>ᴛʀʏɪɴɢ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ.....</b>")
         try:
             path = await client.download_media(message=file, file_name=file_path, progress=progress_for_pyrogram, progress_args=("Download Started....", download_msg, time.time()))
         except Exception as e:
@@ -220,7 +220,7 @@ async def auto_rename_files(client, message):
         except Exception as e:
             print(f"Error getting duration: {e}")
 
-        upload_msg = await download_msg.edit("Trying To Uploading.....")
+        upload_msg = await download_msg.edit("<b>ᴛʀʏɪɴɢ ᴛᴏ ᴜᴘʟᴏᴀᴅɪɴɢ.....</b>")
         ph_path = None
         c_caption = await madflixbotz.get_caption(message.chat.id)
         c_thumb = await madflixbotz.get_thumbnail(message.chat.id)
@@ -249,7 +249,7 @@ async def auto_rename_files(client, message):
                     thumb=ph_path,
                     caption=caption,
                     progress=progress_for_pyrogram,
-                    progress_args=("Upload Started.....", upload_msg, time.time())
+                    progress_args=("<b>ᴜᴘʟᴏᴀᴅ sᴛᴀʀᴛᴇᴅ.....</b>", upload_msg, time.time())
                 )
             elif type == "video":
                 await client.send_video(
@@ -259,7 +259,7 @@ async def auto_rename_files(client, message):
                     thumb=ph_path,
                     duration=duration,
                     progress=progress_for_pyrogram,
-                    progress_args=("Upload Started.....", upload_msg, time.time())
+                    progress_args=("<b>ᴜᴘʟᴏᴀᴅ sᴛᴀʀᴛᴇᴅ....</b>", upload_msg, time.time())
                 )
             elif type == "audio":
                 await client.send_audio(
