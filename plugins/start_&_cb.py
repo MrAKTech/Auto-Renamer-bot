@@ -10,13 +10,13 @@ async def start(client, message):
     user = message.from_user
     await madflixbotz.add_user(client, message)                
     button = InlineKeyboardMarkup([[
-      InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/ZPro_Bots'),
-      InlineKeyboardButton('💬 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+FGM0HOnjDC45ZDk1')
+      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/ZPro_Bots'),
+      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ', url='https://t.me/+FGM0HOnjDC45ZDk1')
     ],[
-      InlineKeyboardButton('⚙️ Hᴇʟᴘ', callback_data='help'),
-      InlineKeyboardButton('😊 Aʙᴏᴜᴛ', callback_data='about')
+      InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
+      InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
     ],[
-        InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZX')
+        InlineKeyboardButton("🍁 ᴍᴀsᴛᴇʀ 🍁", url='https://t.me/Devil_Eyes_ZBot')
     ]])
     if Config.START_PIC:
         await message.reply_photo(Config.START_PIC, caption=Txt.START_TXT.format(user.mention), reply_markup=button)       
@@ -56,13 +56,13 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.HELP_TXT.format(client.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup([[
-                InlineKeyboardButton("⚙️ Setup AutoRename Format ⚙️", callback_data='file_names')
+                InlineKeyboardButton("⚙️ sᴇᴛᴜᴘ ᴀᴜᴛᴏʀᴇɴᴀᴍᴇ ғᴏʀᴍᴀᴛ ⚙️", callback_data='file_names')
                 ],[
-                InlineKeyboardButton('🖼️ Tʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail'),
-                InlineKeyboardButton('✏️ Cᴀᴘᴛɪᴏɴ', callback_data='caption')
+                InlineKeyboardButton('Tʜᴜᴍʙɴᴀɪʟ', callback_data='thumbnail'),
+                InlineKeyboardButton('Cᴀᴘᴛɪᴏɴ', callback_data='caption')
                 ],[
                 InlineKeyboardButton('《 Hᴏᴍᴇ', callback_data='home'),
-                InlineKeyboardButton('💰 Dᴏɴᴀᴛᴇ', callback_data='donate')
+                InlineKeyboardButton('Dᴏɴᴀᴛᴇ', callback_data='donate')
                 ]])
         )
     elif data == "donate":
