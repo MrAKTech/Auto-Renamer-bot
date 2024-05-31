@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/4b306f4b15c23a8f22e58.jpg" alt="logo" target="/blank">
+<img src="https://telegra.ph/file/1ae63b22c98dcd991787a.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
  <b><a href="https://t.me/autorenamexbot" target="/blank"> Auto Rename Bot </a></>
@@ -34,7 +34,7 @@
 <summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/JishuDeveloper/Auto-Rename-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/animelegendpro/Auto-Renamer-bot">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
