@@ -21,7 +21,7 @@ async def not_subscribed(_, client, message):
 
 @Client.on_message(filters.private & filters.create(not_subscribed))
 async def forces_sub(client, message):
-    buttons = [[InlineKeyboardButton(text="🍁 Update Channel 🍁", url=f"https://t.me/{Config.FORCE_SUB}") ]]
+    buttons = [[InlineKeyboardButton(text="🍁 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🍁", url=f"https://t.me/{Config.FORCE_SUB}") ]]
     text = "<b>ʜᴇʟʟᴏ ᴅᴇᴀʀ \n\nʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴊᴏɪɴ ɪɴ ᴍʏ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ\n\nᴋɪɴᴅʟʏ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</b>"
     try:
         user = await client.get_chat_member(Config.FORCE_SUB, message.from_user.id)    
